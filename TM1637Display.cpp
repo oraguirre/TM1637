@@ -21,8 +21,13 @@ extern "C" {
   #include <inttypes.h>
 }
 
-#include <TM1637Display.h>
+#if defined(ARDUINO) && ARDUINO >= 100
 #include <Arduino.h>
+#include <TM1637Display.h>
+#elif defined(SPARK)
+#include "application.h"
+#include "TM1637Display.h"
+#endif
 
 #define TM1637_I2C_COMM1    0x40
 #define TM1637_I2C_COMM2    0xC0
