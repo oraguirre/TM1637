@@ -1,5 +1,9 @@
-#include <Arduino.h>
-#include <TM1637Display.h>
+//Statements for Arduino
+//#include <Arduino.h>
+//#include <TM1637Display.h>
+
+//Statements for Spak Core
+#include "TM1637Display/TM1637Display.h"
 
 // Module connection pins (Digital Pins)
 #define CLK 2
