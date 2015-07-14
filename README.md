@@ -1,10 +1,12 @@
-TM1637
+TM1637 (Work in progress)
 ======
-Arduino library for TM1637 (LED Driver)
+Spark Core library for TM1637 (LED Driver)
 
 
 Description
 -----------
+This is an attempt to port the existing arduino library to work with the spark core from Particle. 
+
 An Arduino library for 7-segment display modules based on the TM1637 chip, such as Seeed Studio's [Grove 4 digit display](http://www.seeedstudio.com/depot/grove-4digit-display-p-1198.html). The TM1637 chip also has keyboard input capability, but it's not implemented in this library.
 
 Hardware Connection
