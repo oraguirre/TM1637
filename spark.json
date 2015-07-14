@@ -1,0 +1,7 @@
+{
+  "name": "TM1637Display",
+  "author": "Orlando Aguirre <oraguirre@gmail.com>",
+  "license": "GNU",
+  "version": "0.0.1",
+  "description": "A library for TM1637 (LED Driver)"
+}
