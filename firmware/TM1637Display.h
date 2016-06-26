@@ -72,6 +72,8 @@ public:
   //! @param pos The position least significant digit (0 - leftmost, 3 - rightmost)
   void showNumberDec(int num, bool leading_zero = false, uint8_t length = 4, uint8_t pos = 0);
   
+  void showNumberDecDot(int num, bool leading_zero = false, uint8_t length = 4, uint8_t pos = 0, int decimal_dot_place);
+  
   //! Translate a single digit into 7 segment code
   //!
   //! The method accepts a number between 0 - 15 and converts it to the
